@@ -1,0 +1,48 @@
+﻿body {
+    background: #0080A3;
+    color: #ffffff;
+    font-size: 150%;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Agency FB Local File'
+}
+
+@font-face {
+    font-family: "Agency FB Local File";
+    src: url("../fonts/AGENCYR.ttf") format('truetype');
+}
+
+
+.Title {
+    color: #19CDFF;
+}
+
+.Subtitle {
+    color: #00BDF0;
+}
+h2 {
+    background-image: url('../img/txt-bg.png');
+}
+
+a {
+    
+    color: #7289DA;
+}
+.hyperlink 
+{
+    font-size: 150%;
+    background-image: url('../img/hyperlink-bg.png');
+}
+
+
+.nacimage {
+    width: 300px;
+    height: 300px;
+    background-size: 300px 300px;
+    margin-top: 50px;
+    background-image: url('../img/ShrimpClick Icon.png');
+    transition: transform 150ms ease-in-out;
+}
+
+.nacimage:hover {
+    transform: translateX(60px) rotate(20deg);
+}
